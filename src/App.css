@@ -58,11 +58,23 @@
 }
 .first p{
   font-size:7rem;
-  line-height: 1rem;
 }
 .first p:nth-child(1){
   transform: translateX(-70px);
 }
 .first p:nth-child(2){
   transform: translateX(200px);
+}
+img{
+  width:350px;
+  margin:50px
+}
+.images img:nth-child(1){
+  transform: rotate(90deg);
+}
+.images img:nth-child(3){
+  transform: rotate(-45deg) translateY(225px);
+}
+.images img:nth-child(2){
+  width:450px;
 }
