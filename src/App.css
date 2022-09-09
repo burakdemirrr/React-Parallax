@@ -30,6 +30,20 @@
   color: white;
 }
 
+video{
+  object-fit: cover;
+  z-index: 1;
+  max-height:650px;
+  width: 100%;
+}
+span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(270px);
+}
+
+
 .App-link {
   color: #61dafb;
 }
@@ -70,7 +84,7 @@ img{
   margin:50px
 }
 .images img:nth-child(1){
-  transform: rotate(90deg);
+  transform: rotate(90deg) translateX(25px);
 }
 .images img:nth-child(3){
   transform: rotate(-45deg) translateY(225px);
