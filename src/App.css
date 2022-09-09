@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
 .App {
   text-align: center;
 }
@@ -40,7 +40,7 @@ span{
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: translateX(270px);
+  transform: translateX(285px);
 }
 
 
@@ -91,4 +91,10 @@ img{
 }
 .images img:nth-child(2){
   width:450px;
+}
+
+.last p{
+  font-size:10rem;
+  font-family: 'Combo', cursive;
+
 }

@@ -30,6 +30,10 @@ function App() {
           </video>
         </ParallaxLayer>
 
+
+        <ParallaxLayer offset={2.1} speed={1} className="last">
+          <p>NOBU</p>
+        </ParallaxLayer>
       </Parallax>
       </div>
     </div>
